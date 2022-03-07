@@ -1,0 +1,107 @@
+/* ---block reklamu--- */
+a {
+    text-decoration: none !important;
+    color: #44525e !important;
+}
+
+.block-a {
+    min-height: 100px;
+    background: #fff;
+    border: 1px solid #eaefea;
+}
+
+.block-a .sale {
+    width: 25%;
+    margin: 0 2%;
+    float: left;
+}
+
+.sale-img {
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/sale_img.png);
+    margin: 10px auto;
+    text-align: center;
+
+
+}
+
+.sale-img span {
+    font-style: italic;
+    font-size: 12px;
+    color: #fff;
+    padding-top: 25px;
+    display: block;
+}
+
+.sale-img p {
+
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.block-a .slogan {
+    width: 40%;
+    float: left;
+    margin: 0 2%;
+    text-align: left;
+    min-height: 100px;
+    position: relative;
+}
+
+.block-a .slogan::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 45px;
+    background: #f0efef;
+    position: absolute;
+    right: 0px;
+    top: 27px;
+
+}
+
+.block-a .slogan h3 {
+    color: #44525e;
+    font-size: 22px;
+    text-align: left;
+    margin: 0;
+    padding-top: 18px;
+}
+
+
+.block-a .slogan p {
+    color: #44525e;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.block-a .a-price {
+    width: 23%;
+    min-height: 100px;
+    float: left;
+    margin: 0 2%;
+    color: #ff7013;
+    font-size: 22px;
+    line-height: 100px;
+    font-weight: 900;
+
+}
+
+/*
+.block-a .a-price p::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    display чтобы высоту и ширину принял 
+    background-image: url(../img/card_plus.png);
+    margin-right: 30px;
+} */
+/* ---block reklamu end --- */
+
+.block-a-2 {
+    padding: 20px 0;
+    line-height: 30px;
+}
